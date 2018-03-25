@@ -1,0 +1,38 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set system font */
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.4;
+    font-size: 62.5%;
+}
+  
+body {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(20deg, rgb(219, 112, 147), #daa357);
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.4rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 2.4rem;
+}
+
+a {
+    color: #3498db;
+}
