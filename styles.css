@@ -36,3 +36,23 @@ p {
 a {
     color: #3498db;
 }
+.button{
+    
+    color: red;
+}
+.btn{
+    position: relative;
+    left: -1px;
+    top: -1px;
+    padding: 7px 16px;
+    color: red;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    border:none;
+}
+
+.btn:hover{
+    color:white;
+    background-color: Red;
+}
